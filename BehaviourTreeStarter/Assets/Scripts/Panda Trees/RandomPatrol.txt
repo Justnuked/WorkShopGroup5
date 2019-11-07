@@ -1,5 +1,0 @@
-tree("Root")
-	sequence
-		SetRandomDestination
-		MoveToDestination
-

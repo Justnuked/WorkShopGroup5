@@ -65,7 +65,7 @@ public class EnemyController : MonoBehaviour
     [Task]
     public void SetRandomDestination()
     {
-        Vector3 dest = new Vector3(Random.Range(-100, 100), 0, Random.Range(-100, 100));
+        Vector3 dest = new Vector3(Random.Range(-50, 50), 0, Random.Range(-50, 50));
         agent.SetDestination(dest);
         Task.current.Succeed();
     }
